@@ -16,3 +16,4 @@ sed -i "/^w2lQLimit/c$new_w2lQLimit" /appex/etc/config
 tmp_smBurstMS="20"
 new_smBurstMS="smBurstMS=\"$tmp_smBurstMS\""
 sed -i "/^smBurstMS/c$new_smBurstMS" /appex/etc/config
+exit
